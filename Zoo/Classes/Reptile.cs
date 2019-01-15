@@ -6,12 +6,9 @@ using Zoo.Classes;
 namespace Zoo.Classes
 {
     public abstract class Reptile : Mammal
-    {
-        
+    {   
         public virtual string Length { get; set; }
 
         public abstract bool LayEggs { get; set; }
-
-
     }
 }
