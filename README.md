@@ -11,7 +11,7 @@ Using all 4 of the Object Oriented Principles (OOPs): - Build out the hierarchic
 2 virtual properties (override one of them)
 
 #Diagram
-markup: ![classes info](/Assets/zoo.JPG)
+markup: ![classes info](/Assets/zoo2.JPG)
 
 #Explanation of OOP Principles
 1. Abstraction: It allows making relevant information visible. Abstract classes are non-instantiable classes.
