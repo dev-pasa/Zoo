@@ -31,7 +31,6 @@ namespace Zoo.Classes
             return "Water is like my second home";
         }
 
-       
         public string DryOff()
         {
             return "I need sun to dry off";
