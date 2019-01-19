@@ -31,5 +31,14 @@ namespace Zoo.Classes
         {
             return "Animal Sound";
         }
+
+        /// <summary>
+        /// create virtual Sleep method
+        /// </summary>
+        /// <returns></returns>
+        public virtual string Sleep()
+        {
+            return "Sleep 10 hours";
+        }
     }
 }

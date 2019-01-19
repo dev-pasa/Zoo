@@ -70,5 +70,14 @@ namespace Zoo.Classes
         {
             return "Four cubs are born";
         }
+
+        /// <summary>
+        /// override virtual Sleep method
+        /// </summary>
+        /// <returns></returns>
+        public override string Sleep()
+        {
+            return "sleep 6 hours";
+        }
     }
 }

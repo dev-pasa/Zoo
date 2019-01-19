@@ -100,5 +100,14 @@ namespace Zoo.Classes
         {
             return "I am ok at hungting in water";
         }
+
+        /// <summary>
+        /// override virtual Sleep method
+        /// </summary>
+        /// <returns></returns>
+        public override string Sleep()
+        {
+            return "sleep 8 hours";
+        }
     }
 }

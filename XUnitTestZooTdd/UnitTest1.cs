@@ -15,8 +15,6 @@ namespace XUnitTestZooTdd
         //Prove methods have been overridden
         //Prove that one of your concrete animals is an Animal
 
-       
-
         /// <summary>
         /// Polymorphism
         /// </summary>
@@ -140,5 +138,14 @@ namespace XUnitTestZooTdd
             Assert.Equal("Hisss!!", Program.PythonSound());
         }
 
+        /// <summary>
+        /// Overridde virtual Sleep method
+        /// </summary>
+        [Fact]
+        public void PythonSleep()
+        {
+            Python python = new Python();
+            Assert.True(python.Sleep() =="sleep 5 hours");
+        }
     }
 }
