@@ -43,5 +43,14 @@ namespace Zoo.Classes
         {
             return "Tortoise sound";
         }
+
+        /// <summary>
+        /// override virtual Sleep method
+        /// </summary>
+        /// <returns></returns>
+        public override string Sleep()
+        {
+            return "sleep 6 hours";
+        }
     }
 }
